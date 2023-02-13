@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Arial";
+  src: url("../public/fonts/ARIAL.woff");
+}
+
+@font-face {
+  font-family: "Arial-Black";
+  src: url("../public/fonts/ARIALBI.woff");
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("../public/fonts/HelveticaNeueLTPro-BlkEx.otf");
+}
+
+@font-face {
+  font-family: "inter";
+  src: url("../public/fonts/Inter-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Heading-Black";
+  src: url("../public/fonts/Helvetica\ Neue\ LT\ Pro\ 95\ Black.otf");
+}
+
+body {
+  font-family: "inter";
+}
+
+/* starwars */
+.fade {
+  position: absolute;
+  width: 100%;
+  min-height: 20vh;
+  top: -25px;
+  background-image: linear-gradient(0deg, transparent, black 5%);
+  z-index: 1;
+}
+
+.star-wars {
+  display: flex;
+  /* justify-content: center; */
+  position: relative;
+  height: 800px;
+  perspective: 400px;
+  /* text-align: justify; */
+}
+
+.crawl {
+  position: relative;
+  top: 9999px;
+  transform-origin: 50% 100%;
+  animation: crawl 60s linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes crawl {
+  0% {
+    top: 0;
+    transform: rotateX(20deg) translateZ(0);
+  }
+  100% {
+    top: -6000px;
+    transform: rotateX(25deg) translateZ(-2500px);
+  }
+}
