@@ -2,7 +2,7 @@ import React from 'react'
 
 function TokenomicsSection() {
     return (
-        <div className='flex flex-col my-36 h-full w-full gap-4'>
+        <div id='tokenomics' className='flex flex-col my-40 w-full gap-4'>
             <h1 className='text-center text-[6vw] md:text-4xl text-white font-helvetica tracking-[0.6rem] md:tracking-[1.2rem]'>TOKENOMICS</h1>
 
             <div className='grid grid-cols-3'>

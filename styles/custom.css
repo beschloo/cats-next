@@ -23,27 +23,32 @@
   src: url("../public/fonts/Helvetica\ Neue\ LT\ Pro\ 95\ Black.otf");
 }
 
+html,
 body {
-  font-family: "inter";
+  scroll-behavior: smooth;
 }
 
-/* starwars */
-.fade {
+body {
+  font-family: "inter";
+  background-color: black;
+  background: url("../public/starfield.jpeg");
+}
+
+/* starwars effect */
+/* .fade {
   position: absolute;
   width: 100%;
   min-height: 20vh;
   top: -25px;
   background-image: linear-gradient(0deg, transparent, black 5%);
   z-index: 1;
-}
+} */
 
 .star-wars {
   display: flex;
-  /* justify-content: center; */
   position: relative;
   height: 800px;
   perspective: 400px;
-  /* text-align: justify; */
 }
 
 .crawl {

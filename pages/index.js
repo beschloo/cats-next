@@ -8,7 +8,7 @@ import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
-    <div className='h-full w-full bg-black p-4'>
+    <div className='h-full w-full bg-gradient-to-b from-transparent to-black  p-4'>
       <HeroSection />
       <TokenomicsSection />
       <PhasesSection />

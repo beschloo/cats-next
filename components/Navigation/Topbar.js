@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import CatSvg from '../CatSvg';
-import CatText from '../CatText';
-import FullscreenMenu from './FullScreenMenu';
+import Fullscreen from './FullScreen';
 
 function Topbar() {
 
@@ -19,9 +18,9 @@ function Topbar() {
     return (
         <>
             <div className='hidden md:flex justify-between text-white font-arial'>
-                <a href="#">TOKENOMICS</a>
-                <a href="#">ROADMAP</a>
-                <a href="#">STORY</a>
+                <a href="#tokenomics">TOKENOMICS</a>
+                <a href="#roadmap">ROADMAP</a>
+                <a href="#story">STORY</a>
                 <a href="#">WHITEPAPER</a>
             </div>
 
@@ -41,7 +40,9 @@ function Topbar() {
                 </button>
             </div>
 
-            <FullscreenMenu isFullscreen={fullscreen} disableFullscreen={disableFullscreen} />
+
+            {/* fullscreen menu */}
+            <Fullscreen fullscreen={fullscreen} disableFullscreen={disableFullscreen} />
         </>
     )
 }

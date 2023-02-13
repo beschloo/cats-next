@@ -62,7 +62,7 @@ function PhasesSection() {
         }
     ]
     return (
-        <div className='h-full max-w-screen-md mx-auto flex flex-col gap-16 font-inter'>
+        <div id='roadmap' className='h-full max-w-screen-md mx-auto flex flex-col gap-16 font-inter'>
             {
                 phases?.map((phase, key) => (
                     <PhaseItem id={phase.id} title={phase.title} description={phase.description} key={key} />

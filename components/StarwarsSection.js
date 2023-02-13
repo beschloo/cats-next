@@ -1,10 +1,9 @@
 import React from 'react'
-// import './Starwars.module.css'
 
 function StarwarsSection() {
     return (
-        <div className=' overflow-clip relative text-6xl lg:text-8xl'>
-            <div className='fade'></div>
+        <div id='story' className=' overflow-clip relative text-6xl lg:text-8xl my-10 lg:my-20'>
+            {/* <div className='fade'></div> */}
             <div className='star-wars text-cats-yellow-dark'>
                 <div className='crawl flex flex-col gap-4 max-w-screen-md mx-auto '>
                     <p className=''>
