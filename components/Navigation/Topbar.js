@@ -18,10 +18,10 @@ function Topbar() {
     return (
         <>
             <div className='hidden md:flex justify-between text-white font-arial'>
-                <a href="#tokenomics">TOKENOMICS</a>
-                <a href="#roadmap">ROADMAP</a>
-                <a href="#story">STORY</a>
-                <a href="#">WHITEPAPER</a>
+                <a data-scroll-to href="#tokenomics">TOKENOMICS</a>
+                <a data-scroll-to href="#roadmap">ROADMAP</a>
+                <a data-scroll-to href="#story">STORY</a>
+                <a data-scroll-to href="#">WHITEPAPER</a>
             </div>
 
             <div className='flex justify-between md:hidden absolute top-0 left-0 w-full'>
