@@ -1,6 +1,7 @@
 import React from 'react'
 
 function StarwarsSection() {
+
     return (
         <div id='story' className=' overflow-clip relative text-6xl lg:text-8xl my-10 lg:my-20'>
             {/* <div className='fade'></div> */}

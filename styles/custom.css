@@ -31,10 +31,13 @@ body {
 body {
   font-family: "inter";
   background-color: black;
-  background: url("../public/starfield.jpeg");
+  background-image: url("../public/starfield.jpeg");
+  background-repeat: no-repeat;
+  /* overflow-y: hidden; */
 }
 
 /* starwars effect */
+
 /* .fade {
   position: absolute;
   width: 100%;
@@ -47,7 +50,7 @@ body {
 .star-wars {
   display: flex;
   position: relative;
-  height: 800px;
+  height: 80vh;
   perspective: 400px;
 }
 
