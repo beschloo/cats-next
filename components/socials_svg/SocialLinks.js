@@ -1,6 +1,6 @@
 import React from 'react'
 import DextoolsIcon from './DextoolsIcon'
-import EtherIcon from './EtherIcon'
+import ArbiIcon from './ArbiIcon'
 import TelegramIcon from './TelegramIcon'
 import TwitterIcon from './TwitterIcon'
 
@@ -17,7 +17,7 @@ function SocialLinks() {
                 <DextoolsIcon />
             </a>
             <a href="" className='bg-white bg-opacity-30 hover:bg-cats-yellow-dark hover:bg-opacity-70 transition-all duration-150 ease-in-out rounded-full h-10 w-10 flex items-center justify-center'>
-                <EtherIcon />
+                <ArbiIcon />
             </a>
         </div>
     )
