@@ -9,9 +9,12 @@ import Footer from '@/components/Footer'
 export default function Home() {
   return (
 
-    <Head>
+
+
+    <div className='h-full w-full bg-gradient-to-b from-transparent to-black  p-4'>
+      <Head>
         <title>$CATS Official | Arbitrum</title>
-        <meta property="og:site_name" content="$CATS Official | Arbitrum" />
+        <meta property="og:site_name" content="" />
         <meta
           name="description"
           content="Your new defi feline friend.Bringing together the world of cats and crypto."
@@ -20,7 +23,7 @@ export default function Home() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:image" content="/images/cats-og.jpg" />
       </Head>
-    <div className='h-full w-full bg-gradient-to-b from-transparent to-black  p-4'>
+
       <HeroSection />
       <TokenomicsSection />
       <PhasesSection />
