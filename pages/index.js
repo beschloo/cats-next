@@ -8,10 +8,16 @@ import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
-
-
-
     <div className='h-full w-full bg-gradient-to-b from-transparent to-black  p-4'>
+      <Script id="ms-clarity" strategy="afterInteractive">
+        {`
+          (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "fuq9ugvgd");
+          `}
+      </Script>
       <Head>
         <title>$CATS Official | Arbitrum</title>
         <meta property="og:site_name" content="" />
@@ -23,13 +29,6 @@ export default function Home() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:image" content="/images/cats-og.jpg" />
 
-        <script type="text/javascript">
-          (function(c,l,a,r,i,t,y){
-            c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
-          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "fuq9ugvgde");
-        </script>
       </Head>
 
       <HeroSection />
