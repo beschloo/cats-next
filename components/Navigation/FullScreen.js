@@ -21,7 +21,7 @@ function Fullscreen({ fullscreen, disableFullscreen }) {
                     <a href="#tokenomics">TOKENOMICS</a>
                     <a href="#roadmap">ROADMAP</a>
                     <a href="#story">STORY</a>
-                    <a href="#">WHITEPAPER</a>
+                    <a href="/images/catstoken_whitepaper_022423.pdf">WHITEPAPER</a>
                 </div>
 
                 <div className='my-8 h-[2px] w-4/6 bg-cats-orange-red mx-4'></div>

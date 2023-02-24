@@ -21,7 +21,7 @@ function Topbar() {
                 <a href="#tokenomics">TOKENOMICS</a>
                 <a href="#roadmap">ROADMAP</a>
                 <a href="#story">STORY</a>
-                <a href="#">WHITEPAPER</a>
+                <a href="/images/catstoken_whitepaper_022423.pdf">WHITEPAPER</a>
             </div>
 
             <div className='flex justify-between md:hidden absolute top-0 left-0 w-full'>
