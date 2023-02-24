@@ -25,7 +25,9 @@ function HeroSection() {
             </div>
 
             <div className='absolute bottom-10 w-full h-fit flex flex-col md:flex-row gap-4 justify-between items-center'>
-                <button className='text-black bg-cats-yellow hover:bg-cats-yellow-dark transition-all duration-150 ease-in-out rounded-full h-fit px-6 py-2 md:py-4 font-arial'>BUY $CATS</button>
+                <a href='https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0xB1CD1D319f5363Ed57FCe58a85055ADA0e15A957&chainId=42161'>
+                    <button className='text-black bg-cats-yellow hover:bg-cats-yellow-dark transition-all duration-150 ease-in-out rounded-full h-fit px-6 py-2 md:py-4 font-arial'>BUY $CATS</button>
+                </a>
 
                 <SocialLinks />
             </div>
