@@ -8,7 +8,7 @@ function PhasesSection() {
             title: 'Silent Launch & Webpage',
             description: [
                 { text: "Launch Cats Token on the Arbitrum blockchain" },
-                { text: "Release the Cats Token website, which will include information about the token, its team, and its vision" },
+                { text: "Release the Cats Token website, which will include information about the token, and its vision" },
                 { text: "Introduce Whiskers, the cat that fell in love with crypto and inspired the creation of Cats Token" },
             ]
         },
