@@ -18,10 +18,10 @@ function Fullscreen({ fullscreen, disableFullscreen }) {
 
                 {/* menu items */}
                 <div className='flex flex-col mt-20 text-4xl font-heading-black w-full gap-6 px-4 text-white'>
-                    <a href="#tokenomics">TOKENOMICS</a>
-                    <a href="#roadmap">ROADMAP</a>
-                    <a href="#story">STORY</a>
-                    <a href="/images/catstoken_whitepaper_022423.pdf">WHITEPAPER</a>
+                    <a onClick={disableFullscreen} href="#tokenomics">TOKENOMICS</a>
+                    <a onClick={disableFullscreen} href="#roadmap">ROADMAP</a>
+                    <a onClick={disableFullscreen} href="#story">STORY</a>
+                    <a onClick={disableFullscreen} href="/images/catstoken_whitepaper_022423.pdf">WHITEPAPER</a>
                 </div>
 
                 <div className='my-8 h-[2px] w-4/6 bg-cats-orange-red mx-4'></div>
